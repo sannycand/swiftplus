@@ -1,0 +1,24 @@
+/* line 1, ../sass/main.scss */
+.no-posts-here {
+  text-align: center;
+}
+
+/* line 7, ../sass/main.scss */
+.post .post__meta {
+  font-weight: bold;
+  text-align: right;
+  padding-bottom: 19px;
+}
+
+/* line 13, ../sass/main.scss */
+.post .post__meta a:hover {
+  text-decoration: none;
+}
+
+/* line 17, ../sass/main.scss */
+.btn-add-new-post {
+  position: relative;
+  bottom: 20px;
+  right: 20px;
+  background: red;
+}

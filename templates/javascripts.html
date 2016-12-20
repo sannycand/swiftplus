@@ -1,0 +1,22 @@
+{% load compress %}
+{% load staticfiles %}
+
+{% compress js %}       
+
+<!-- jQuery -->
+<script src="//code.jquery.com/jquery.js"></script>
+<!-- Bootstrap JavaScript -->
+<script src="{% static 'node_modules/bootstrap/dist/js/bootstrap.min.js' %}"></script>
+<!-- AngularJs -->
+<script src="{% static 'node_modules/angular/angular.js' %}"></script>
+
+<script type="text/javascript" src="{% static 'js/thinkster.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/thinkster.config.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/thinkster.routes.js' %}"></script>
+
+<script type="text/javascript" src="{% static 'js/authentication/thinkster.routes.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/authentication/authentication.module.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/authentication/services/authentication.service.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/authentication/controllers/register.controller.js' %}"></script>
+
+{% endcompress %}
